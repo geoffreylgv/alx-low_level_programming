@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - main block that does specific tasks(especialy shows a size of different type of computer using c programming language
+ * main - code that shows a size of different type
  * Return: 0 (run w/ success)
  */
 int main(void)

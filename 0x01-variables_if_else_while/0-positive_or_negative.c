@@ -12,22 +12,23 @@
 int main(void)
 {
 
-	int nToPrint;
+	int n;
 
 	srand(time());
-	nToPrint = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-	if (nToPrint == 0)
+	if (n > 0)
 	{
-		printf("The number is zero => %d", nToPrint);
+		printf("%d is positive\n", n);
 	}
-	else if (nToPrint > 0)
+	else if (n == 0)
 	{
-		printf("The number is positive => %d", nToPrint);
+		printf("%d is zero\", n);
 	}
 	else
 	{
-		printf("The number is negative => %d", nToPrint);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
+

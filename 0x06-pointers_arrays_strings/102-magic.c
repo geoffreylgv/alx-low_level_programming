@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - Add one line( ne 22) to this code, so that the program prints a[2] = 98, followed by a new line.
+ * Return: always 0 success
+ */
 int main(void)
 {
 	int n;

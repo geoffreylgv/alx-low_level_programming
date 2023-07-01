@@ -2,4 +2,4 @@
 
 ### Description
 I'm actually learning a full-stack engineering program at [ALX](https://alxafrica), and this repository describes my learning journey. <br>
-This repo is a C programing laguage repository - that stores basics and advanced C codes.
+This repo is a C programming language repository - that stores basics and advanced C codes.

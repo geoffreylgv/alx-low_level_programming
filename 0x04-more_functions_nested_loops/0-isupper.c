@@ -6,13 +6,8 @@
  */
 int _isupper(int c)
 {
-	int verif;
-
-	for (verif = 'A'; verif <= 'Z'; verif++)
-	{
-		if (c == verif)
-			return (1);
-		return (0);
-	}
+	if (c <= 'A' && c >= 'Z')
+		return (1);
+	return (0);
 }
 

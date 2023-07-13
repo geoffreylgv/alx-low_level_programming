@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - prints a string by recursion
  *
- *
+ *@s: char parameter given
  *
  */
 

@@ -1,0 +1,3 @@
+[master 251d277] fixe 3-print_remaining_days.c removed the = statement for month equal 2 so ad day to all except february
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 0x03-debugging/=

@@ -4,9 +4,9 @@
  * print_list - prints elements of a list_t list
  * @h: const ptr
  *
- * Return: it returns nodes's number
+ * Return: it returns nodes's number as count
  */
-size_t print_list(const list *h)
+size_t print_list(const list_t *h)
 {
 	size_t count;
 
@@ -21,6 +21,6 @@ size_t print_list(const list *h)
 		count++;
 		h = h->next;
 	}
-	return (noeuds);
+	return (count);
 }
 
